@@ -1,0 +1,13 @@
+# local run artefacts (the card PNG in docs/ is a committed screenshot, everything else is throwaway)
+*.log
+*.png
+!docs/hover-card.png
+
+# machine-specific settings stay local (copy settings.local.example.ps1 to settings.local.ps1)
+settings.local.ps1
+
+# this repo holds the tray monitor only: no models, no weights, no Strata install content
+*.gguf
+*.safetensors
+node_modules/
+__pycache__/
